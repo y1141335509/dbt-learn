@@ -1,0 +1,35 @@
+# Name your project!
+# 
+# 
+name: 'admin_maturity'
+version: '1.0.0'
+config-version: 2
+
+# this setting configures
+profile: 'default'
+
+# these configurations
+# the 'source-paths' config, for example, ...
+# found in the 'models/' directory ...
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+
+# configuring models
+# full documentation
+
+# in this example config
+# as tables
+# using the `{{ config(...) }}`
+models:
+  admin_maturity:
+
